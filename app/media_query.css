@@ -1,0 +1,19 @@
+@media (max-width: 760px) {
+    .header {
+        text-align: center;
+        width: auto;
+    }
+}
+
+
+@media (max-width: 760px) {
+    .image-header {
+        text-align: center;
+        width: 112px;
+        height: 36px;
+        top: 18px;
+        left: 120px;
+
+
+    }
+}

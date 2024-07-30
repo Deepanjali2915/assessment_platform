@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+body {
+    background-color: #EBE9E6;
+    margin: 0px;
+}
+
+.main {
+    width: 100%;
+    border: solid 1px red;
+}
+
+.header-container {
+    background-color: #FCFAFA;
+}
+
+.header {
+    background-color: #FCFAFA;
+    /* border: solid 1px black; */
+    height: 72px;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.image-header {
+    margin-top: 18px;
+}
+
+.about-container {
+    background-color: #FCFAFA;
+}
+
+.about {
+    background-color: #EBE9E6;
+    margin-top: 57px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    color: #4C4B49;
+
+}
+
+.instructions-container {
+    background-color: #FCFAFA;
+    width: 705px;
+    margin: auto;
+    height: 620px;
+}
+
+.instructions {
+    height: 22px;
+    /* margin-top: 40px; */
+    margin-left: 117px;
+    gap: 40px;
+    opacity: 0px;
+    border:solid 2px  red;
+
+}
