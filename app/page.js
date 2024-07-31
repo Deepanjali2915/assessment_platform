@@ -4,12 +4,14 @@ import "./media_query.css"
 import Header from "./Component/Header";
 import About from "./Component/About";
 import Footer from "./Component/Footer";
+import Assessment from "./Component/Assessment";
 export default function Home() {
   return (
     <div className="main" >
-      <Header/>
+      {/* <Header/>
       <About/>
-      <Footer/>
+      <Footer/> */}
+      <Assessment/>
     </div>
   );
 }
