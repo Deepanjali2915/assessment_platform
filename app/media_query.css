@@ -1,27 +1,50 @@
 @media (max-width: 700px) {
-    .header {
-        text-align: center;
-        width: auto;
-    }
 
-    .image-header {
-        text-align: center;
-        width: 112px;
-        height: 36px;
-        top: 18px;
-        left: 120px;
-    }
     .instructions-container {
-        width: 100%;
+        width: 320px;
         padding: 0 10px; 
         box-sizing: border-box;
         height: auto; 
         text-align: center;
     }
 
+    .instructions-title{
+        text-align: center;   
+    }
+
     .instructions{
-        width: 100%;
+        width: 280px;
+        margin: auto;
         text-align: left;
+        padding: 0px;
     }
     
+    .Paragraph{
+        font-size:10vw ;
+    }
+
+    .button{
+        width: 165px;
+        height: 54px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .line{
+        width: 280px;
+        margin-bottom: 30px;
+    }
+
+    .footer{
+        font-size: 14px;
+    }
+
+    .submitbutton{
+        display: none;
+        color: red;
+    }
+
+    .image-header2{
+        justify-content: center;
+    }
 }

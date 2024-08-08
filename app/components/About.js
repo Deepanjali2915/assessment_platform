@@ -1,15 +1,16 @@
+import "./component.css";
+
 const About = () => {
     return (
         <>
-            <div className="about-container" >
-                <div className="about" >
-                    MCQ Test Portal
-                </div>
-            </div >
+
+            <div className="about" >
+                MCQ Test Portal
+            </div>
             <div className="instructions-container" >
                 <div className="instructions">
-                    <span className="instructions-title" >Instructions</span>
-                    <div>
+                    <div className="instructions-title" >Instructions</div>
+                    <div class="paragraph" >
                         <p>Please read the instructions carefully before you begin:</p>
                         <ul>
                             <li>Timing: The test is timed. You have [specified time] minutes to complete all questions.</li>
@@ -26,13 +27,17 @@ const About = () => {
                             Click 'Lets Start' to begin the test. <br />
                             <strong>Good luck!</strong>
                         </p>
+
+
                     </div>
+
                 </div>
                 <div className="line" ></div>
-                <button className="button">Lets Start!</button>
+                <div><a href="/assessment" ><button className="button">Lets Start!</button></a></div>
 
             </div>
         </>
     );
 };
+
 export default About;  

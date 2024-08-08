@@ -1,14 +1,15 @@
 const Header2 = () => {
     return (
         <>
-            <div className="header2-container" >
+            <div className="headerassessment" >
                 <div className="header2" >
                     <img className="image-header2" src="Logo.png" />
-                    <button className="button2">Submit</button>
+                    <button className="submitbutton">Submit</button>
                 </div>
-            </div>
+            </div >
 
         </>
     );
 };
+
 export default Header2;  
