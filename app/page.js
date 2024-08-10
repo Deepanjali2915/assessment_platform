@@ -1,5 +1,4 @@
 import "./globals.css";
-import "./media_query.css"
 import Header from "./components/Header";
 import About from "./components/About";
 

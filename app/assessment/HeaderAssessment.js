@@ -9,11 +9,8 @@ const HeaderAssessment = () => {
                         <img className="logo" src="Logo.png" />
                         <Pagination />
                     </div>
-                    {/* <div className="paginationdiv" >
-                       
-                    </div> */}
-                    <div className="submitdiv" >
-                        <button className="submitbutton">Submit</button>
+                    <div className="submit-div" >
+                        <button className="submit-button">Submit</button>
                     </div>
                 </div >
             </div>
@@ -22,3 +19,13 @@ const HeaderAssessment = () => {
 };
 
 export default HeaderAssessment;  
+
+
+
+// display: flex;
+// width: 30px;
+// padding: 7px 10px 6px 10px;
+// flex-direction: column;
+// justify-content: center;
+// align-items: center;
+// gap: 10px;

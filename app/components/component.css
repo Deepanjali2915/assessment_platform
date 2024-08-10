@@ -27,6 +27,7 @@
     flex-direction: column;
 }
 
+
 .instructions-container {
     background-color: #FCFAFA;
     width: 705px;
@@ -91,4 +92,51 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+
+
+
+@media (max-width: 700px) {
+
+    .instructions-container {
+        width: 320px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        height: auto;
+        text-align: center;
+    }
+
+    .instructions-title {
+        text-align: center;
+    }
+
+    .instructions {
+        width: 280px;
+        margin: auto;
+        text-align: left;
+        padding: 0px;
+    }
+
+    .Paragraph {
+        font-size: 10vw;
+    }
+
+    .button {
+        width: 165px;
+        height: 54px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .line {
+        width: 280px;
+        margin-bottom: 30px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+
+
 }
