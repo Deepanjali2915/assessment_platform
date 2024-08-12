@@ -1,9 +1,10 @@
 import Pagination from "./Pagination";
+import Header from "../components/Header";
 
 const HeaderAssessment = () => {
     return (
         <>
-            <div className="header-assessment" >
+            <div className="header-assessment-desktop" >
                 <div className="main-header" >
                     <div className="logo-pagination" >
                         <img className="logo" src="Logo.png" />
@@ -14,18 +15,18 @@ const HeaderAssessment = () => {
                     </div>
                 </div >
             </div>
+            <div className="header-assessment-mobile" >
+                <div className="mobile-header" >
+                    <Header />
+                </div>
+                <div className="mobile-pagination" >
+                </div>
+            </div>
         </>
     );
 };
 
-export default HeaderAssessment;  
+export default HeaderAssessment;
 
 
 
-// display: flex;
-// width: 30px;
-// padding: 7px 10px 6px 10px;
-// flex-direction: column;
-// justify-content: center;
-// align-items: center;
-// gap: 10px;

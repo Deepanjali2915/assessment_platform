@@ -12,7 +12,6 @@ const Pagination = () => {
             <a href="#">8</a>
             <a href="#" className="end" >&rsaquo;</a>
         </div>
-
     );
 };
 

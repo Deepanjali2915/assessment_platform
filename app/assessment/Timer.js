@@ -3,7 +3,6 @@ const Timer = () => {
         <div className="timer">
             <img className="image-timer" src="Timer.png" />
         </div>
-
     );
 };
 

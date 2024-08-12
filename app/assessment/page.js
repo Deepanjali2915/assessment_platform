@@ -1,14 +1,14 @@
 import HeaderAssessment from "./HeaderAssessment";
-import Timer from "./Timer";
+// import Timer from "./Timer";
 import "./assessment.css"
 import Assessment from "./Assessment";
-// import 
+
 const Page = () => {
     return (
         <>
             <div  >
                 <HeaderAssessment />
-                {/* {<Timer /> */}
+                {/* <Timer /> */}
                 <Assessment/>
             </div>
         </>
