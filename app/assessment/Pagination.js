@@ -1,3 +1,5 @@
+import "./pagination.css";
+
 const Pagination = () => {
     return (
         <div class="pagination">
@@ -16,3 +18,21 @@ const Pagination = () => {
 };
 
 export default Pagination;  
+
+
+
+
+// display: flex;
+// justify-content: center;
+// align-items: center;
+// gap: 16px;
+
+
+
+// display: flex;
+// width: 30px;
+// padding: 7px 10px 6px 10px;
+// flex-direction: column;
+// justify-content: center;
+// align-items: center;
+// gap: 10px;

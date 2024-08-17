@@ -1,6 +1,4 @@
 import HeaderAssessment from "./HeaderAssessment";
-// import Timer from "./Timer";
-import "./assessment.css"
 import Assessment from "./Assessment";
 
 const Page = () => {
@@ -8,7 +6,6 @@ const Page = () => {
         <>
             <div  >
                 <HeaderAssessment />
-                {/* <Timer /> */}
                 <Assessment/>
             </div>
         </>

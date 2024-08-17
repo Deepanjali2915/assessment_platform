@@ -4,8 +4,6 @@ const Questions = () => {
     return (
         <div className="main-questions">
             <Question />
-            <Question />
-            <Question />
         </div>
     );
 };

@@ -1,5 +1,6 @@
 import Pagination from "./Pagination";
 import Header from "../components/Header";
+import "./header_assessment.css";
 
 const HeaderAssessment = () => {
     return (
@@ -16,11 +17,10 @@ const HeaderAssessment = () => {
                 </div >
             </div>
             <div className="header-assessment-mobile" >
-                <div className="mobile-header" >
-                    <Header />
-                </div>
-                <div className="mobile-pagination" >
-                </div>
+                <Header />
+                <Pagination />
+                {/* <div className="mobile-pagination" ><Pagination />
+                </div> */}
             </div>
         </>
     );
@@ -30,3 +30,10 @@ export default HeaderAssessment;
 
 
 
+// display: flex;
+// width: 30px;
+// padding: 7px 10px 6px 10px;
+// flex-direction: column;
+// justify-content: center;
+// align-items: center;
+// gap: 10px;

@@ -1,3 +1,5 @@
+import "./assessment.css"
+
 const Timer = () => {
     return (
         <div className="timer">
