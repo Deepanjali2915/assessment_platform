@@ -1,6 +1,7 @@
 import Pagination from "./Pagination";
-import Header from "../components/Header";
+import Header from "../instructon/Header";
 import "./header_assessment.css";
+import Mobile_pagination from "./mobile_pagination";
 
 const HeaderAssessment = () => {
     return (
@@ -12,15 +13,15 @@ const HeaderAssessment = () => {
                         <Pagination />
                     </div>
                     <div className="submit-div" >
-                        <button className="submit-button">Submit</button>
+                        <a href="/submitted">
+                            <button className="submit-button">Submit</button>
+                        </a>
                     </div>
                 </div >
             </div>
             <div className="header-assessment-mobile" >
                 <Header />
-                <Pagination />
-                {/* <div className="mobile-pagination" ><Pagination />
-                </div> */}
+                <Mobile_pagination />
             </div>
         </>
     );

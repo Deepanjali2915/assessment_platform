@@ -82,13 +82,57 @@
 
 .mobile-timer {
     height: 100px;
-    width: 101px;
-    border: 1px solid black;
+    width: 100px;
+    border: 1px solid gray;
     border-radius: 100%;
+    background-color: red;
+    background-color: black;
     margin-top: 23px;
+    /* text-align: center;
+    position: relative; */
+    display: flex;
+    justify-content: space-around;
+    /* margin: 7px; */
+}
+
+.mobile-timer-double {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 100%;
+    margin: auto;
+
 }
 
 .mobile-filter {
     margin-top: 67px;
     margin-bottom: 75px;
+}
+
+
+
+
+.submit-button-mobile {
+    height: 54px;
+    width: 130px;
+    float: right;
+    gap: 10px;
+    border-radius: 4px;
+    border: 2px solid#F4D150;
+    background: #FEEEB4;
+    box-shadow: 0px 4px 7px 0px #B3AE9C;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+
+
+}
+
+
+
+@media (max-width: 400px) {
+    .submit-div-mobile {
+        display: block;
+    }
 }

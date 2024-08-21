@@ -2,6 +2,8 @@ import Timer from "./Timer";
 import Filter from "./Filter";
 import Questions from "./Questions";
 import "./assessment.css"
+import Submit_button from "./Submit_button";
+
 
 const Assessment = () => {
     return (
@@ -14,12 +16,16 @@ const Assessment = () => {
                 <div className="questions" >
                     <div className="mobile-timer-filter" >
                         <div className="mobile-timer" >
+                            <div className="mobile-timer-double"></div>
                         </div>
                         <div className="mobile-filter" >
                             <img className="filter" src="Mobile.png" />
                         </div>
+                        
                     </div>
+                    
                     <Questions />
+                    <Submit_button/>
                 </div>
             </div>
         </div>

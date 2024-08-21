@@ -4,23 +4,23 @@ const Pagination = () => {
     return (
         <div class="pagination">
             <a href="#" className="start" >&lsaquo;</a>
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#">5</a>
-            <a href="#">6</a>
-            <a href="#">7</a>
-            <a href="#">8</a>
+            <a href="#" className="page" >1</a>
+            <a href="#" className="page hidden" >2</a>
+            <a href="#" className="page hidden" >3</a>
+            <a href="#" className="page hidden" >4</a>
+            <a href="#" className="page " >5</a>
+            <a href="#" className="page hidden" >6</a>
+            <a href="#" className="page hidden" >7</a>
+            <a href="#" className="page " >8</a>
             <a href="#" className="end" >&rsaquo;</a>
         </div>
     );
 };
 
-export default Pagination;  
+export default Pagination;
 
 
-
+ 
 
 // display: flex;
 // justify-content: center;
