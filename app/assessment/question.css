@@ -10,8 +10,6 @@
     }
 }
 
-
-
 .question-score {
     height: 21px;
     display: flex;
@@ -54,7 +52,6 @@
         height: auto;
         margin-bottom: 40px;
     }
-
 }
 
 .cantainer {
@@ -88,4 +85,8 @@
     line-height: 150%;
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.single-option {
+    margin-right: 16px;
 }

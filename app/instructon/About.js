@@ -3,7 +3,6 @@ import "./component.css";
 const About = () => {
     return (
         <>
-
             <div className="about" >
                 MCQ Test Portal
             </div>
@@ -27,14 +26,11 @@ const About = () => {
                             Click 'Lets Start' to begin the test. <br />
                             <strong>Good luck!</strong>
                         </p>
-
-
                     </div>
-
                 </div>
                 <div className="line" ></div>
-                <div><a href="/assessment" ><button className="button">Lets Start!</button></a></div>
-
+                <div><a href="/assessment" ><button className="button">Lets Start!</button></a>
+                </div>
             </div>
         </>
     );

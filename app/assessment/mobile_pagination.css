@@ -1,44 +1,59 @@
 .mobile-pagination {
     display: flex;
-    margin: 16px;
+    justify-items: center;
+    width: 360px;
     justify-content: space-between;
-    /* border: 1px solid red; */
 }
 
 .mobile-pagination a {
-    width: 7px;
-    padding: 7px 10px 6px 10px;
-    display: flex;
-    justify-content: center;
-    border-radius: 100%;
-    margin: 7px;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 8px;
     text-decoration: none;
     border: 1px solid #E0DFDA;
     color: #1F1E1C;
     font-family: "Inria Sans";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%;
+    line-height: 30px;
 }
 
-.mobile-pagination div {
+.hidden {
     margin-top: 14px;
 }
-
 
 .mobile-pagination a:hover:not(.active) {
     background-color: #ddd;
 }
 
-.start {
+.start-pagination {
     background-color: #EBE9E6;
-    stroke-width: 1px;
-    stroke: #EBE9E6;
+    background-color: #EBE9E6;
+    box-sizing: border-box;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 8px;
+    text-decoration: none;
+    border: 1px solid #E0DFDA;
+    color: #1F1E1C;
+    font-family: "Inria Sans";
+    line-height: 25px;
 }
 
-.end {
+.end-pagination {
     background-color: #FEEEB4;
-    stroke-width: 1px;
-    stroke: #F4D150;
+    box-sizing: border-box;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 8px;
+    text-decoration: none;
+    border: 1px solid #E0DFDA;
+    color: #1F1E1C;
+    font-family: "Inria Sans";
+    line-height: 25px;
 }

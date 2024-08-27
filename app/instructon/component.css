@@ -27,6 +27,12 @@
     flex-direction: column;
 }
 
+@media (max-width: 1200px) {
+    .about {
+        margin-top: 40px;
+        margin-bottom: 34px;
+    }
+}
 
 .instructions-container {
     background-color: #FCFAFA;
@@ -53,17 +59,26 @@
     line-height: normal;
 }
 
-.instructions p,ul {
+@media (max-width: 1200px) {
+    .instructions-title {
+        margin-top: 40px;
+    }
+}
+
+
+.instructions p,
+ul {
     color: #4C4B49;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%
+    line-height: 150%;
 }
 
 .instructions ul {
     padding-left: 20px;
+    margin: 0px;
 }
 
 .line {
@@ -71,6 +86,12 @@
     height: 1px;
     margin: auto;
     background: #4C4B49;
+}
+
+@media (max-width: 1200px) {
+    .line {
+        margin-top: 52px;
+    }
 }
 
 .button {
@@ -94,11 +115,7 @@
     line-height: normal;
 }
 
-
-
-
 @media (max-width: 700px) {
-
     .instructions-container {
         width: 320px;
         padding: 0 10px;
@@ -137,6 +154,4 @@
     .footer {
         font-size: 14px;
     }
-
-
 }

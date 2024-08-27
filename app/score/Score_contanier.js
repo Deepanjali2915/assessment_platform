@@ -18,8 +18,6 @@ const Score_contanier = () => {
                 <Correct />
                 <Wrong />
             </div>
-
-
         </div>
     );
 };

@@ -6,7 +6,7 @@ const Page = () => {
         <>
             <div  >
                 <HeaderAssessment />
-                <Assessment/>
+                <Assessment />
             </div>
         </>
     );

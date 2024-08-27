@@ -7,7 +7,6 @@
     margin-top: 103px;
     margin-bottom: 599px;
     text-align: center;
-    /* border: 1px solid red; */
     background: #F9F7F2;
 }
 
@@ -19,82 +18,64 @@
         margin-top: 54px;
         margin-bottom: 75px;
     }
-
 }
-
-
 
 .tick {
     margin-top: 65px;
 }
-
 
 .main-text {
     height: 141px;
     width: 319px;
     margin: auto;
     text-align: center;
-    /* border: 1px solid red; */
     margin-top: 22px;
 }
 
 .h1 {
-    color: var(--Dark-a, #1F1E1C);
-
-    /* H Section */
+    color:#1F1E1C;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
-    /* 28.8px */
-    letter-spacing: -0.48px;
     margin-bottom: 36px;
 }
-
 
 .h3 {
     color: #000;
     text-align: center;
-
-    /* tx bold */
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: 160%;
     margin-bottom: 12px;
-    /* 22.4px */
 }
-
 
 .p {
     color: #000;
     text-align: center;
-
-    /* tx */
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    /* 21px */
 }
 
-.button{
+.button {
     margin: auto;
     margin-top: 98px;
 }
+
 @media (max-width: 400px) {
     .button {
         width: 232px;
         height: 54px;
-        margin: auto;
         margin-bottom: 60px;
         margin-top: 50px;
+        text-decoration: none;
         font-size: 18px;
-        display: block  ;
-        /* text-align: ; */
+        display: block;
     }
-
 }

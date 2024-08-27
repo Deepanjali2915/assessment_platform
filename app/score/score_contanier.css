@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria Sans');
 
 .main-container {
     width: 625px;
     margin: auto;
-    /* border: 1px solid red; */
 }
 
 @media (max-width: 400px) {
@@ -13,9 +13,7 @@
         width: 320px;
         margin: auto;
     }
-
 }
-
 
 .score-contanier {
     height: 165px;
@@ -32,10 +30,7 @@
         margin-top: 21px;
         display: block;
     }
-
 }
-
-
 
 .point-contanier-dektop {
     display: flex;
@@ -55,19 +50,15 @@
 }
 
 @media (max-width: 400px) {
-
     .point-contanier-mobile {
         display: flex;
-        /* justify-content: space-between; */
         width: 268px;
         height: 83px;
         margin: auto;
-        margin-bottom:26px;
+        margin-bottom: 26px;
         margin-top: 18px;
-
         border: 1 px solid red;
     }
-
 }
 
 .your-score-dektop {
@@ -83,7 +74,6 @@
 .your-score-mobile {
     display: none;
 }
-
 
 @media (max-width: 400px) {
     .your-score-dektop {
@@ -125,7 +115,7 @@
     width: 122px;
     padding-right: 33px;
     margin-left: 33px;
-    border-right: 1px solid #8F887C;
+    border-right: 1px solid #8F887C; 
 }
 
 .unattempted-mobile {
@@ -143,23 +133,18 @@
         margin-right: 20px;
         width: 88px;
     }
-
-
 }
 
 .unattempted-text,
 .correct-text,
 .wrong-text {
     color: #F9F7F2;
-
-    /* tx */
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
     margin-top: 8px;
-    /* 21px */
 }
 
 .correct-desktop {
@@ -169,7 +154,6 @@
     margin-left: 33px;
     border-right: 1px solid #8F887C;
     stroke-width: 1px;
-
 }
 
 .correct-mobile {
@@ -187,10 +171,7 @@
         margin-right: 20px;
         width: 70px;
     }
-
-
 }
-
 
 .wrong-desktop {
     text-align: center;
@@ -212,6 +193,116 @@
         text-align: center;
         width: 70px;
     }
+}
 
+.check-text {
+    color: #1F1E1C;
+    font-family: "Inria Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 67px 223px 22px 2px;
+}
 
+@media (max-width: 400px) {
+    .check-text {
+        margin-bottom: 21px;
+        margin-top: 71px;
+        margin-right: 10px;
+    }
+}
+
+.line {
+    width: 621px;
+    height: 2px;
+    margin-bottom: 50px;
+    background: #777671;
+}
+
+@media (max-width: 400px) {
+    .line {
+        width: 320px;
+    }
+}
+
+.main-question-point {
+    margin-left: 20px;
+    width: 595px;
+    border: 1px solid #EBE9E6;
+}
+
+.question-point {
+    display: flex;
+}
+
+@media (max-width: 400px) {
+    .main-question-point {
+        width: 320px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+
+.question-point-img {
+    margin-right: 16px;
+}
+
+.question-point-text {
+    color: #1F1E1C;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    margin-right: 16px;
+    margin-top: 2px;
+}
+
+.question-point-img-collapse {
+    margin-left: 450px;
+}
+
+@media (max-width: 400px) {
+    .question-point-img-collapse {
+        margin-left: 180px;
+    }
+}
+
+.question-point-cantainer {
+    height: 280px;
+    width: 560px;
+    border-radius: 20px;
+    background-color: #FCFAFA;
+    margin-top: 19px;
+    margin-bottom: 53px;
+    margin-left: 32px;
+    border: 1px solid green;
+}
+
+@media (max-width: 400px) {
+    .question-point-cantainer {
+        margin: auto;
+        width: 320px;
+        margin-left: 0px;
+    }
+}
+
+.line2 {
+    width: 580px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 1px;
+    background: #8F887C;
+    margin-left: 20px;
+}
+
+@media (max-width: 400px) {
+    .line2 {
+        width: 320px;
+        margin-top: 73px;
+        margin-top: 20px;
+    }
 }

@@ -88,11 +88,8 @@
     background-color: red;
     background-color: black;
     margin-top: 23px;
-    /* text-align: center;
-    position: relative; */
     display: flex;
     justify-content: space-around;
-    /* margin: 7px; */
 }
 
 .mobile-timer-double {
@@ -102,7 +99,6 @@
     border: 1px solid gray;
     border-radius: 100%;
     margin: auto;
-
 }
 
 .mobile-filter {
@@ -111,7 +107,9 @@
 }
 
 
-
+.submit-div-mobile{
+    display: none;
+}
 
 .submit-button-mobile {
     height: 54px;
@@ -125,11 +123,7 @@
     position: fixed;
     bottom: 50px;
     right: 20px;
-
-
 }
-
-
 
 @media (max-width: 400px) {
     .submit-div-mobile {

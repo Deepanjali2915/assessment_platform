@@ -4,8 +4,8 @@ const Filter = () => {
     return (
         <div className="main-filter">
             <div className="div-margin" >
-                <div className="filter-name">filter</div>
-                <div className="question-score">question-score</div>
+                <div className="filter-name">filters</div>
+                <div className="question-score">Question-Score</div>
                 <div className="main-marks">
                     <div className="All" >
                         All

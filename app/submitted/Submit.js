@@ -1,6 +1,5 @@
 import "./submit.css";
 
-
 const Submit = () => {
     return (
         <>
@@ -14,7 +13,6 @@ const Submit = () => {
                 <a href="/score">
                     <button className="button">Check Your Score</button>
                 </a >
-
             </div>
 
         </>

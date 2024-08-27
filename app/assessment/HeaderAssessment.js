@@ -28,13 +28,3 @@ const HeaderAssessment = () => {
 };
 
 export default HeaderAssessment;
-
-
-
-// display: flex;
-// width: 30px;
-// padding: 7px 10px 6px 10px;
-// flex-direction: column;
-// justify-content: center;
-// align-items: center;
-// gap: 10px;
