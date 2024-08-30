@@ -2,7 +2,7 @@ import Question from "./Question";
 
 const Questions = () => {
     return (
-        <div className="main-questions">
+        <div>
             <Question />
             <Question />
         </div>

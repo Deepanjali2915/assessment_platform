@@ -10,7 +10,7 @@
     background: #F9F7F2;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
     .main-contanier {
         width: 320px;
         height: 422px;
@@ -68,7 +68,7 @@
     margin-top: 98px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
     .button {
         width: 232px;
         height: 54px;

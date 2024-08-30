@@ -13,7 +13,7 @@ const Question = () => {
                     </div>
                 </div>
                 <div className="question-cantainer" >
-                    <div className="cantainer" >
+                    <div className="question" >
                         <p>Which of the following committees recommended inclusion of fundamental duties?</p>
                         <form>
                             <label className="option">

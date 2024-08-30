@@ -3,10 +3,10 @@
     margin-bottom: 40px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 576px) {
     .main-question-container {
-        width: 320px;
-        margin: auto;
+        width: 100%;
+        /* margin: 20px 20px; */
     }
 }
 
@@ -54,18 +54,18 @@
     }
 }
 
-.cantainer {
+.question {
     padding: 40px 40px;
 }
 
-@media (max-width: 1200px) {
-    .cantainer {
+@media (max-width: 576px) {
+    .question {
         height: auto;
         padding: 40px 30px 40px 30px;
     }
 }
 
-.cantainer p {
+.question p {
     margin: 0px;
     color: #1F1E1C;
     font-family: Inter;

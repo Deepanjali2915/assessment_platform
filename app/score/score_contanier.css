@@ -7,11 +7,21 @@
     width: 625px;
     margin: auto;
 }
+/* .main-question-point{
+    width: 625px;
+    margin: auto;
 
-@media (max-width: 400px) {
+} */
+
+@media (max-width: 550px) {
     .main-container {
-        width: 320px;
+        width: 100%;
         margin: auto;
+    }
+    .mobile-question-container{
+        /* width: 100%; */
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
@@ -24,10 +34,12 @@
     display: flex;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
     .score-contanier {
         height: 218px;
         margin-top: 21px;
+        margin-left: 20px;
+        margin-right: 20px;
         display: block;
     }
 }
@@ -39,7 +51,7 @@
     margin-bottom: 52px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
     .point-contanier-dektop {
         display: none;
     }
@@ -49,12 +61,14 @@
     display: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
     .point-contanier-mobile {
         display: flex;
-        width: 268px;
+        /* width: 100%; */
         height: 83px;
         margin: auto;
+        display: flex;
+        justify-content:space-around;
         margin-bottom: 26px;
         margin-top: 18px;
         border: 1 px solid red;
@@ -75,7 +89,7 @@
     display: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
     .your-score-dektop {
         display: none;
     }
@@ -122,7 +136,7 @@
     display: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
     .unattempted-dektop {
         display: none;
     }
@@ -160,7 +174,7 @@
     display: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
     .correct-desktop {
         display: none;
     }
@@ -183,7 +197,7 @@
     display: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
     .wrong-desktop {
         display: none;
     }
@@ -206,26 +220,31 @@
     margin: 67px 223px 22px 2px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
     .check-text {
         margin-bottom: 21px;
         margin-top: 71px;
-        margin-right: 10px;
+        /* margin-left: 20px; */
+        margin-right: 0px;
+        /* margin-top: 0px; */
+        margin-bottom: 0px;
     }
 }
 
 .line {
-    width: 621px;
+    width: 100%;
     height: 2px;
     margin-bottom: 50px;
     background: #777671;
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 550px) {
     .line {
-        width: 320px;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
     }
-}
+} */
 
 .main-question-point {
     margin-left: 20px;
@@ -233,19 +252,34 @@
     border: 1px solid #EBE9E6;
 }
 
-.question-point {
+.question-point  {
     display: flex;
+    justify-content: space-between;
 }
 
-@media (max-width: 400px) {
+.point{
+    display: flex;
+    /* justify-content: right; */
+}
+
+@media (max-width: 550px) {
     .main-question-point {
-        width: 320px;
+        width: 100%;
         margin-bottom: 20px;
         margin-top: 20px;
         margin-left: 0px;
     }
-}
 
+    .question-point{
+        width: 100%;
+        /* margin-bottom: 20px; */
+        margin-top: 20px;
+        /* margin-left: 20px; */
+        /* margin-right: 20px; */
+        display: flex;
+        justify-content: space-between;
+    }
+}
 .question-point-img {
     margin-right: 16px;
 }
@@ -262,13 +296,16 @@
 }
 
 .question-point-img-collapse {
-    margin-left: 450px;
+    float: right;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
     .question-point-img-collapse {
-        margin-left: 180px;
+        float:right;
     }
+    /* .question{
+        width: 100%;
+    } */
 }
 
 .question-point-cantainer {
@@ -282,11 +319,15 @@
     border: 1px solid green;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
     .question-point-cantainer {
-        margin: auto;
-        width: 320px;
+        /* margin: auto; */
+        width: 100%;
         margin-left: 0px;
+    }
+    .question {
+       height: auto;
+        padding: 40px 30px 40px 30px;
     }
 }
 
@@ -297,12 +338,26 @@
     height: 1px;
     background: #8F887C;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
     .line2 {
-        width: 320px;
-        margin-top: 73px;
+        width: 100%;
+        /* margin-top: 73px; */
         margin-top: 20px;
+        /* margin: auto; */
+        margin-right: 0px;
+        margin-left: 0px;
     }
 }
+
+
+.wrongg{
+    border:1px solid red;    
+}
+
+.notdone{
+    border: none;
+}
+

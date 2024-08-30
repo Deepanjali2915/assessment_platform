@@ -12,6 +12,8 @@
 
 .pagination {
     display: flex;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .pagination a {
@@ -25,7 +27,7 @@
     border: 1px solid #E0DFDA;
     color: #1F1E1C;
     font-family: "Inria Sans";
-    line-height: 30px;
+    line-height: 28px;
 }
 
 .pagination a:hover:not(.active) {

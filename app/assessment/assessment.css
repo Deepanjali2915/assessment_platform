@@ -6,9 +6,9 @@
     margin: auto;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 576px) {
     .main-assesment-cantainer {
-        width: 360px;
+        width: 100%;
     }
 }
 
@@ -18,7 +18,7 @@
     margin-right: 203px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 576px) {
     .assesment-cantainer {
         margin-left: 20px;
         margin-right: 20px;
@@ -30,54 +30,46 @@
     margin-right: 50px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 576px) {
     .desktop-timer-filter {
         display: none;
     }
+}
+
+.main-timer {
+    text-align: center;
+    /* border: 1px solid red; */
+    /* justify-content: center; */
 }
 
 .timer {
-    margin-left: 50px;
-}
-
-@media (max-width: 1200px) {
-    .timer {
-        margin: 0px;
-    }
-}
-
-.questions {
-    margin-top: 66px;
-    width: 320px;
-}
-
-@media (max-width: 1200px) {
-    .questions {
-        margin-top: 0px;
-    }
-}
-
-.mobile-timer-filter {
+    height: 142px;
+    width: 142px;
+    border: 1px solid gray;
+    border-radius: 100%;
+    background-color: red;
+    background-color: rosybrown;
+    margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-@media (max-width: 1200px) {
-
-    .desktop-timer-filter {
-        display: none;
-    }
+.timer-double {
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    /* border: 1px solid gray; */
+    border-radius: 100%;
+    margin: auto;
 }
 
-@media (min-width: 1200px) {
-
-    .desktop-timer-filter {
-        display: block;
-    }
-
-    .mobile-timer-filter {
-        display: none;
-    }
+.timer-text {
+    color: #1F1E1C;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 8px;
 }
 
 .mobile-timer {
@@ -101,13 +93,57 @@
     margin: auto;
 }
 
+
+.main-questions {
+    margin-top: 66px;
+    width: 320px;
+}
+
+@media (max-width: 576px) {
+    .main-questions {
+        margin-top: 0px;
+        width: 100%;
+    }
+}
+
+.mobile-timer-filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+
+    .desktop-timer-filter {
+        display: none;
+    }
+
+    .main-timer{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .desktop-timer-filter {
+        display: block;
+    }
+
+    .mobile-timer-filter {
+        display: none;
+    }
+    /* .main-timer{
+        display: block;
+    } */
+}
+
+
 .mobile-filter {
     margin-top: 67px;
     margin-bottom: 75px;
 }
 
 
-.submit-div-mobile{
+.submit-div-mobile {
     display: none;
 }
 
@@ -125,7 +161,7 @@
     right: 20px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
     .submit-div-mobile {
         display: block;
     }
