@@ -11,15 +11,7 @@ const Timer = () => {
                 <div className="timer-text" >Remaining Time</div>
             </div>
 
-            <div className="mobile-timer-filter" >
-                <div className="mobile-timer" >
-                    <div className="mobile-timer-double"></div>
-                </div>
-                <div className="mobile-filter" >
-                    <img className="filter" src="Mobile.png" />
-                </div>
-            </div>
-
+            
         </>
     );
 };
