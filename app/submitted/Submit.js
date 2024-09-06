@@ -10,11 +10,10 @@ const Submit = () => {
                     <div className="h3" >Thank you for completing the test!</div>
                     <div className="p" >Review your results and keep practicing. <br /> Great job and keep up the hard work!</div>
                 </div>
-                <a href="/score">
+                <a href="/score" className="text-name" >
                     <button className="button">Check Your Score</button>
                 </a >
             </div>
-
         </>
     );
 };

@@ -1,4 +1,4 @@
-.main-filter {
+.main-desktop-filter {
     width: 284px;
     height: 375px;
     border-radius: 12px;
@@ -99,4 +99,26 @@
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
+}
+
+@media (max-width: 576px) {
+
+    .mobile-filter {
+        display: block;
+    }
+
+    .main-desktop-filter {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .mobile-filter {
+        display: none;
+    }
+
+    .main-desktop-filter {
+        display: block;
+    }
 }

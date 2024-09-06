@@ -1,4 +1,4 @@
-import "./assessment.css"
+import "./timer.css"
 
 const Timer = () => {
     return (
@@ -6,15 +6,11 @@ const Timer = () => {
             <div className="main-timer" >
                 <div className="timer">
                     <div className="timer-double"></div>
-
                 </div>
                 <div className="timer-text" >Remaining Time</div>
             </div>
-
-            
         </>
     );
 };
 
 export default Timer;
-

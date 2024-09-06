@@ -14,14 +14,9 @@ const Assessment = () => {
                 </div>
                 <div className="main-questions" >
                     <div className="mobile-timer-filter" >
-                        <div className="mobile-timer" >
-                            <div className="mobile-timer-double"></div>
-                        </div>
-                        <div className="mobile-filter" >
-                            <img className="filter" src="Mobile.png" />
-                        </div>
+                        <Timer />
+                        <Filter/>
                     </div>
-
                     <Questions />
                     <Submit_button />
                 </div>
