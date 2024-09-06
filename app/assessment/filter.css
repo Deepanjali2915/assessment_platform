@@ -102,23 +102,20 @@
 }
 
 @media (max-width: 576px) {
-
-    .mobile-filter {
-        display: block;
-    }
-
-    .main-desktop-filter {
+    .main-desktop-filter{
         display: none;
     }
 }
 
+.mobile-filter {
+    margin-top: 67px;
+    margin-bottom: 75px;
+}
+
+
+
 @media (min-width: 576px) {
-
-    .mobile-filter {
+    .mobile-filter{
         display: none;
-    }
-
-    .main-desktop-filter {
-        display: block;
     }
 }

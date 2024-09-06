@@ -9,6 +9,10 @@
 @media (max-width: 576px) {
     .main-assesment-cantainer {
         width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 1 px solid red;
+        
     }
 }
 
@@ -20,8 +24,11 @@
 
 @media (max-width: 576px) {
     .assesment-cantainer {
-        margin-left: 20px;
-        margin-right: 20px;
+        /* margin-top: 10px; */
+        display: inline;
+        /* margin-left: 20px;
+        margin-right: 20px; */
+        border: 1 px solid red;
     }
 }
 
@@ -34,6 +41,8 @@
     .main-questions {
         margin-top: 0px;
         width: 100%;
+        /* margin-left: 20px;
+        margin-right: 20px; */
     }
 }
 
@@ -43,11 +52,12 @@
 }
 
 @media (max-width: 576px) {
-    .desktop-timer-filter {
-        display: none;
-    }
-    .mobile-timer-filter{
-        display: block;
+    .desktop-timer-filter{
+        margin-top: 0px;
+        margin-right: 0px;
+
+        display: flex;
+        justify-content: space-between;
     }
 }
 

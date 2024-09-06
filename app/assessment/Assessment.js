@@ -12,11 +12,7 @@ const Assessment = () => {
                     <Timer />
                     <Filter />
                 </div>
-                <div className="main-questions" >
-                    <div className="mobile-timer-filter" >
-                        <Timer />
-                        <Filter/>
-                    </div>
+                <div className="main-questions">
                     <Questions />
                     <Submit_button />
                 </div>

@@ -19,7 +19,7 @@
     .timer {
         height: 100px;
         width: 100px;
-        margin-top: 23px;
+        /* margin-top: 23px; */
     }
 
     .timer-text {
@@ -51,34 +51,11 @@
     margin-top: 8px;
 }
 
-.mobile-timer-filter {
+/* .mobile-timer-filter {
     display: flex;
-}
+} */
 
-.mobile-filter {
-    margin-top: 67px;
-    margin-bottom: 75px;
-}
 
 @media (max-width: 576px) {
-
-    .mobile-timer-filter {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .desktop-timer-filter {
-        display: none;
-    }
-}
-
-@media (min-width: 576px) {
-
-    .mobile-timer-filter {
-        display: none;
-    }
-
-    .desktop-timer-filter {
-        display: block;
-    }
+    
 }
