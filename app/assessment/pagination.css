@@ -85,9 +85,9 @@
     line-height: 25px;
 }
 
-.hidden {
+/* .hidden {
     margin-top: 14px;
-}
+} */
 
 @media (max-width: 579px) {
     .page{
@@ -131,9 +131,9 @@
     line-height: 28px;
 }
 
-.hidden {
+/* .hidden {
     margin-top: 14px;
-}
+} */
 
 .mobile-pagination a:hover:not(.active) {
     background-color: #ddd;

@@ -9,8 +9,8 @@
 @media (max-width: 576px) {
     .main-assesment-cantainer {
         width: 100%;
-        margin-left: 20px;
-        margin-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
         border: 1 px solid red;
         
     }
@@ -28,13 +28,18 @@
         display: inline;
         /* margin-left: 20px;
         margin-right: 20px; */
-        border: 1 px solid red;
+        /* border: 1 px solid red; */
+    }
+
+    .image-header{
+        margin-top: 20px;
     }
 }
 
 .main-questions {
     margin-top: 66px;
-    width: 320px;
+    /* width: 320px; */
+    /* border: 1px solid red; */
 }
 
 @media (max-width: 576px) {
