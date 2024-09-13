@@ -32,14 +32,20 @@
     margin-bottom: 48px;
 }
 
+.main-marks div:hover:not(.active) {
+    background: #4C4B49;
+    color: #F9F7F2;
+
+}
+
+
 .All {
     height: 42px;
     width: 42px;
     text-align: center;
     border-radius: 4px;
     border: 1px solid #4C4B49;
-    background: #4C4B49;
-    color: #F9F7F2;
+    background: #FEEEB4;
     font-family: Inter;
     font-weight: 400;
     line-height: 40px;
@@ -66,13 +72,20 @@
     gap: 6px;
     flex-wrap: wrap;
 }
+.all-attempted div:hover:not(.active) {
+    background: #4C4B49;
+    color: #F9F7F2;
+
+}
+
 
 .how-attempted {
     border-radius: 54px;
     border: 1px solid #4C4B49;
-    background: #4C4B49;
-    color: #F9F7F2;
+    /* background: #4C4B49;
+    color: #F9F7F2; */
     display: flex;
+    background: #FEEEB4;
     padding: 6px 12px;
     justify-content: center;
     align-items: center;

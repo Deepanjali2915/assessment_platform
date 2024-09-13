@@ -8,8 +8,7 @@ const HeaderAssessment = () => {
             <div className="header-assessment-desktop" >
                 <div className="main-header" >
                     <div className="logo-pagination" >
-                        {/* <img className="logo" src="Logo.png" /> */}
-                        <Header/>                    
+                        <Header />
                         <Pagination />
                     </div>
                     <div className="submit-div" >
@@ -19,10 +18,6 @@ const HeaderAssessment = () => {
                     </div>
                 </div >
             </div>
-            {/* <div className="header-assessment-mobile" >
-                <div className="mobile" ><Header /></div>
-                <div className="mobilePagination" ><Pagination /></div>
-            </div> */}
         </>
     );
 };

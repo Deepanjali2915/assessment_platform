@@ -11,8 +11,6 @@
         width: 100%;
         padding-left: 20px;
         padding-right: 20px;
-        border: 1 px solid red;
-        
     }
 }
 
@@ -24,11 +22,10 @@
 
 @media (max-width: 576px) {
     .assesment-cantainer {
-        /* margin-top: 10px; */
-        display: inline;
-        /* margin-left: 20px;
-        margin-right: 20px; */
-        /* border: 1 px solid red; */
+        display: block;
+
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .image-header{
@@ -38,56 +35,25 @@
 
 .main-questions {
     margin-top: 66px;
-    /* width: 320px; */
-    /* border: 1px solid red; */
 }
 
 @media (max-width: 576px) {
     .main-questions {
         margin-top: 0px;
         width: 100%;
-        /* margin-left: 20px;
-        margin-right: 20px; */
     }
 }
 
-.desktop-timer-filter {
+.timer-filter {
     margin-top: -50px;
     margin-right: 50px;
 }
 
 @media (max-width: 576px) {
-    .desktop-timer-filter{
+    .timer-filter{
         margin-top: 0px;
         margin-right: 0px;
-
         display: flex;
         justify-content: space-between;
-    }
-}
-
-.submit-div-mobile {
-    display: none;
-}
-
-.submit-button-mobile {
-    height: 54px;
-    width: 130px;
-    float: right;
-    gap: 10px;
-    border-radius: 4px;
-    font-size: 18px;
-    font-weight: 400;
-    border: 2px solid#F4D150;
-    background: #FEEEB4;
-    box-shadow: 0px 4px 7px 0px #B3AE9C;
-    position: fixed;
-    bottom: 50px;
-    right: 20px;
-}
-
-@media (max-width: 576px) {
-    .submit-div-mobile {
-        display: block;
     }
 }
