@@ -1,6 +1,6 @@
 import "./globals.css";
-import Header from "./instructon/Header";
-import About from "./instructon/About";
+import Header from "./instruction/Header";
+import About from "./instruction/About";
 
 export default function Home() {
   return (

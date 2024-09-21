@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Footer from "./instructon/Footer";
+import Footer from "./instruction/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

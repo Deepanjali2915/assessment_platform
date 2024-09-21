@@ -1,5 +1,5 @@
-import Header from "../instructon/Header";
-import "../instructon/component.css";
+import Header from "../instruction/Header";
+import "../instruction/component.css";
 import Question_point from "./Questions_point";
 import Score_contanier from "./Score_contanier";
 import Question from "./Question";

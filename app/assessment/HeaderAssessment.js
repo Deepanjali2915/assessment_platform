@@ -1,5 +1,5 @@
 import Pagination from "./Pagination";
-import Header from "../instructon/Header";
+import Header from "../instruction/Header";
 import "./header_assessment.css";
 
 const HeaderAssessment = () => {

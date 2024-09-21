@@ -1,5 +1,5 @@
-import Header from "../instructon/Header";
-import "../instructon/component.css"
+import Header from "../instruction/Header";
+import "../instruction/component.css"
 import Submit from "./Submit";
 
 const Page = () => {

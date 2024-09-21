@@ -1,6 +1,6 @@
 import Timer from "./Timer";
 import Filter from "./Filter";
-import Questions from "./Questions";
+import Question from "./Question";
 import "./assessment.css"
 
 const Assessment = () => {
@@ -12,7 +12,11 @@ const Assessment = () => {
                     <Filter />
                 </div>
                 <div className="main-questions">
-                    <Questions />
+                    <Question />
+                    <Question />
+                    <Question />
+                    <Question />
+                    <Question />
                 </div>
             </div>
         </div>
